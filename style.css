@@ -1,0 +1,37 @@
+body{
+  background-color:rgb(100,106,104);
+  width:100%;
+}
+canvas{
+	background-color: gray;
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+	border:1px solid transparent;
+	border-left:1px inset black;
+	border-right:1px inset black;
+}
+
+#textBox{
+	width:800px;
+	height:30px;
+	background-color:white;
+	text-align:center;
+	opacity:0.8;
+	color:rgb(100,106,104);
+	font-size:20px;
+	position: absolute;
+	top:-650px;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+}
+
+#life{
+	margin-left: 30%;
+	border: 1px dotted green;
+}
